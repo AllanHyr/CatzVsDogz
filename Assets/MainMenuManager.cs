@@ -1,34 +1,40 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Important pour charger d'autres scènes plus tard
+using UnityEngine.SceneManagement; // Important pour charger d'autres scï¿½nes plus tard
 
 public class MainMenuManager : MonoBehaviour
 {
-    // Méthode pour le bouton Jouer
+    // Mï¿½thode pour le bouton Jouer
     public void PlayGame()
     {
-        Debug.Log("Bouton Jouer cliqué !");
+        Debug.Log("Bouton Jouer cliquï¿½ !");
         // Plus tard, vous ajouterez ici :
-        // SceneManager.LoadScene("NomDeVotreSceneDeJeu"); // Remplacez par le nom réel de votre scène de jeu
+        // SceneManager.LoadScene("NomDeVotreSceneDeJeu"); // Remplacez par le nom rï¿½el de votre scï¿½ne de jeu
     }
 
-    // Méthode pour le bouton Settings
+    // Mï¿½thode pour le bouton Settings
     public void OpenSettings()
     {
-        Debug.Log("Bouton Settings cliqué !");
-        // Plus tard, vous pourrez ouvrir un panel de settings ou une autre scène
+        Debug.Log("Bouton Settings cliquï¿½ !");
+        // Plus tard, vous pourrez ouvrir un panel de settings ou une autre scï¿½ne
     }
 
-    // Méthode pour le bouton Credits
+    // Mï¿½thode pour le bouton Credits
     public void ShowCredits()
     {
-        Debug.Log("Bouton Credits cliqué !");
-        // Plus tard, vous pourrez ouvrir un panel de crédits ou une autre scène
+        Debug.Log("Bouton Credits cliquï¿½ !");
+        // Plus tard, vous pourrez ouvrir un panel de crï¿½dits ou une autre scï¿½ne
     }
 
-    // Optionnel : Méthode pour quitter le jeu (fonctionne sur build PC/Mobile, pas dans l'éditeur)
+    public void ShowMiniGame()
+    {
+        Debug.Log("Bouton MiniGame cliquï¿½ !");
+        // Plus tard, vous pourrez ouvrir le mini jeu
+    }
+
+    // Optionnel : Mï¿½thode pour quitter le jeu (fonctionne sur build PC/Mobile, pas dans l'ï¿½diteur)
     public void QuitGame()
     {
-        Debug.Log("Bouton Quitter cliqué !");
+        Debug.Log("Bouton Quitter cliquï¿½ !");
         Application.Quit();
     }
 }
